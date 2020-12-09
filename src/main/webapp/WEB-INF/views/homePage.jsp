@@ -9,9 +9,10 @@
 <body>
 <h1>Suma a 2 numere!</h1>
 
-<form action="" method="get">
-    <input type="text" name="userName"><br>
-    <input type="submit" value="Login">
+<form action="/add/first/{firstNumber}/second/{secondNumber}" method="get">
+    <input type="text" name="firstNumber"><br>
+    <input type="text" name="secondNumber"><br>
+    <input type="submit" value="Sum">
 </form>
 </body>
 </html>

@@ -7,6 +7,6 @@
     <title>Sum page</title>
 </head>
 <body>
-<h3>Sum  ${userName}</h3>
+<h3>Sum = ${sum}</h3>
 </body>
 </html>
