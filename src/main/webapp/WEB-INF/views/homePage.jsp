@@ -20,8 +20,8 @@
 </script>
 
 <form name="sumForm" method="get" onsubmit="return OnSubmitForm();">
-    <input type="text" name="firstNumber"><br>
-    <input type="text" name="secondNumber"><br>
+    <input type="text" name="first"><br>
+    <input type="text" name="first"><br>
     <input type="submit" value="Sum">
 </form>
 </body>
