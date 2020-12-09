@@ -21,7 +21,7 @@
 
 <form name="sumForm" method="get" onsubmit="return OnSubmitForm();">
     <input type="text" name="first"><br>
-    <input type="text" name="first"><br>
+    <input type="text" name="second"><br>
     <input type="submit" value="Sum">
 </form>
 </body>
