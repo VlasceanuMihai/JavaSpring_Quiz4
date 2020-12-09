@@ -29,7 +29,7 @@ public class SumController {
     }
 
     @GetMapping("/add/first/{first}/second/{second}")
-    public String sum(@PathVariable int first, @PathVariable int second, Model model){
+    public String sum(@PathVariable("first") int first, @PathVariable("second") int second, Model model){
         model.addAttribute("sum", this.sumService.sum(first, second));
         return "sumPage";
     }
